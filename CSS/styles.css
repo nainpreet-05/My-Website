@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;      /* For aligning the text to the center. Can also be done using margins */
+  font-family: 'Merriweather', serif;
+}
+
+.top-container{
+  background-color: #EAF6F6;    /* # sign is important if we are using hexa code of the colour */
+  position: relative;
+  /* Parent container should be made relative before making changes to the position of child class otherwise the child's position may change with the change of window size of the browser */
+padding-top: 100px;
+}
+h1{
+  font-size: 5.625rem;
+  /* Percent makes the font size dynamic, which means if user changes the font size in his browser
+  our website's font size will also change.
+  100% font size = 16px; hence 90 px= 562.5% .
+  Also 1 em= 16px. In addition to this percent or em font size is inherited from its parent. You can avoid this by using rem*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 6px;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.middle-container{
+padding-bottom: 70px;
+margin: 100px;
+}
+.bottom-container{
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #66BFBF;
+}
+.about-me{
+  color: #40514E;
+  width:30%;
+  margin: auto;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+.profile-img{
+  height:200px;
+  width: 200px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.coding-img{
+  width: 25%;
+  float:left; /* wrapping the text to the right and around the image*/
+  margin-right: 30px;
+  }
+  .doodle-img{
+    width: 25%;
+    float:right; /* wrapping the text to the left and around the image*/
+    }
+
+.subheading{
+  font-weight: normal;
+}
+
+.code-text{
+  text-align: left;
+
+}
+.doodle-text{
+  text-align: left;
+  line-height: 2;
+}
+.btn{
+  -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 25px 0;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
